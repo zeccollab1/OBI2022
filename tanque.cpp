@@ -9,7 +9,7 @@ int main(){
 
 	if(tanque*consumo<distancia){
 		float distancia_restante = (distancia - tanque*consumo);
-		cout << setprecision(2) << distancia_restante/consumo;
+		printf("%.1f",distancia_restante/consumo);
 	}else{
 		cout << "0.0";
 	}
